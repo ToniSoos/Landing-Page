@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f3c877;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+
+.header {
+    background-color: #297383;
+    height: 500px;
+    border-bottom: solid gray 3px
+    
+}
+.reiter {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#headerlogo {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+#schiggy {
+    height: 100px;
+    width: 100px
+}
+.main {
+    display: flex;
+    justify-content: space-around
+}
+
+
+#headerlinks {
+    display: flex;
+    gap: 16px;
+    padding: 16px
+}
+    /*Main*/
+.maintxth{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    line-height: 130%;
+   
+}
+
+#mainimg {
+    display: flex;
+}
+.button-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#signbutton {
+    width: 200px;
+    height: 30px;
+    border: solid white 2px;
+    font-size: 16px;
+    background-color: #93c8d0;
+    color: black;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+a {
+text-decoration: none;
+color: #f3c877;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+#contenth1 {
+    text-align: center;
+    
+}
+.contentpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 125px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.contentpics img {
+    border: solid black 3px;
+    border-radius: 25px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.inspiringdiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: black;
+    text-align: center;
+}
+.inspiringtxt 
+{   text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 100px;
+    margin-left: 100px
+}
+.quote {
+    text-align: right;
+    font-size: large;
+    margin: 10px 100px;
+}
+
+.signdiv {
+    background-color: #297383;
+    border-bottom: solid gray 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.button-con {
+    margin-top: px;
+}
+.signtxt {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
